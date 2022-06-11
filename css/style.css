@@ -40,7 +40,8 @@ p {
   font-size: 15px;
 }
 
-h1,h2 {
+h1,
+h2 {
   font-size: 48px;
 }
 
@@ -59,67 +60,81 @@ h5 {
 h6 {
   font-size: 15px;
 }
-li{
+
+li {
   list-style: none;
 }
-.logo-img{
+
+.logo-img {
   margin: 15px;
 }
-header{
+
+header {
   width: 100%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav__link{
+
+.nav__link {
   text-decoration: none;
   color: var(--blue-text);
 }
 
-.nav__items{
+.nav__items {
   display: flex;
 }
-.nav__item{
+
+.nav__item {
   margin: 0px 25px;
   padding: 22px 0px;
 }
-.nav__item_yulduz{
+
+.nav__item_yulduz {
   margin: 0px;
 }
-.accaunt{
+
+.accaunt {
   color: var(--blue-text);
   text-decoration: none;
-  margin-right: 40px ;
+  margin-right: 40px;
 }
-.savat{
+
+.savat {
   margin-right: 30px;
 }
-.header-body{
+
+.header-body {
   width: 100%;
   height: 600px;
   background-color: var(--orange);
   position: relative;
 }
-.header-body-h2{
+
+.header-body-h2 {
   width: 510px;
   padding-top: 226px;
   /* margin-left: 100px; */
 }
-.header-body__bg-img{
+
+.header-body__bg-img {
   position: absolute;
   top: 50%;
   right: -15%;
-  transform: translate(-50%,-50%);
-  
+  transform: translate(-50%, -50%);
+
 }
-.header-body-p{
-    /* margin-left: 100px; */
-    padding-top: 33px;
-    width: 300px;
+
+.header-body-p {
+  /* margin-left: 100px; */
+  padding-top: 33px;
+  width: 300px;
 }
-.header-body-btn{
+
+.header-body-btn {
   background-color: var(--btn-bg);
   border: none;
   border-radius: 44px;
@@ -128,70 +143,84 @@ header{
   width: 228px;
   height: 56px;
 }
-.btn-href{
+
+.btn-href {
   text-decoration: none;
   color: var(--white);
 }
+
 .header-footer {
   display: flex;
   justify-content: space-between;
 }
-.section-h3{
+
+.section-h3 {
   margin-top: 88px;
   margin-left: 162px;
 }
-.section-div{
+
+.section-div {
   display: flex;
   justify-content: space-evenly;
 }
-.card-p{
+
+.card-p {
   width: 270px;
 }
-.card-p2{
+
+.card-p2 {
   width: 230px;
 }
-.card-p3{
+
+.card-p3 {
   width: 270px;
 }
-.section2{
+
+.section2 {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   background-color: var(--yellow);
 }
 
-.section-card{
+.section-card {
   width: 50%;
-  padding:100px;
-  text-align: center;  
+  padding: 100px;
+  text-align: center;
 }
-.section-card-1::after{
-  content:'';
+
+.section-card-1::after {
+  content: '';
   position: absolute;
   top: 50%;
   right: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   height: 80%;
   width: 2px;
   background-color: #011F3A;
 }
-.section-btn{
+
+.section-btn {
   border-radius: 44px;
   border: none;
   padding: 10px;
   margin-top: 23px;
 }
-.section-href{
+
+.section-href {
   text-decoration: none;
   padding: 20px;
 }
-.footer{
+
+.footer {
   padding: 100px 0px;
 }
-.footer-h3{
+
+.footer-h3 {
   margin-left: 628px;
-} 
-.footer-btn{
+}
+
+.footer-btn {
   background-color: var(--btn-bg);
   border-radius: 44px;
   border: none;
@@ -199,11 +228,13 @@ header{
   margin-left: 540px;
   margin-top: 50px;
 }
-.footer-href{
+
+.footer-href {
   color: var(--white);
   text-decoration: none;
 }
-.footer-btn2{
+
+.footer-btn2 {
   color: var(--white);
   border-radius: 44px;
   border: none;
@@ -212,50 +243,57 @@ header{
   margin-left: 10px;
   margin-top: 50px;
 }
-.footer-href2{
+
+.footer-href2 {
   color: var(--btn-bg);
   text-decoration: none;
 }
 
 
-.footer2{
+.footer2 {
   display: flex;
   justify-content: space-between;
 }
 
 .footer2-href-div a,
 .footer2-href2-div a,
-.footer2-href3-div a{
+.footer2-href3-div a {
   display: block;
   text-decoration: none;
   margin: 0 0 17px 0;
   color: var(--btn-bg);
 }
-.img-icon{
-  margin-top: 50px ;
+
+.img-icon {
+  margin-top: 50px;
 }
-input{
+
+input {
   width: 280px;
   height: 36px;
   border-radius: 34px;
   border: none;
   display: flex;
 }
-.input-p{
+
+.input-p {
   margin: 13px;
 }
+
 .footer2-href3-div input {
   padding: 5px 15px;
 }
-.input-btn{
+
+.input-btn {
   width: 187px;
   height: 44px;
   border-radius: 44px;
   margin-top: 10px;
-  background-color: var(--btn-bg) ;
+  background-color: var(--btn-bg);
   border: none;
 }
-.input-btn a{
+
+.input-btn a {
   color: var(--white);
   margin: 0;
 }
