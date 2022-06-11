@@ -1,3 +1,3 @@
 # Akmal-uchun
 # Abror uchun
-#logo_qo'shildi
+# logo_qo'shildi
